@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.Branch" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.NullWordItemProcessor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.SearchResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.BranchActionFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.BranchValueFunction&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.AccumulatorFunction&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.BranchProcessFunction&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Gramma.Indexing.RadixTree&lt;C, D, N&gt;.DistanceFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RadixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CIAAAAAIAAgAACAAABgQAQAAgAACAAACAAACACBAAAA=</HashCode>
+      <FileName>RadixTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Indexing.WordTree&lt;C, D, N&gt;">
+    <Position X="0.5" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WordTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Indexing.SuffixTree&lt;C, D, N&gt;">
+    <Position X="4" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Gramma.Indexing.SuffixTree&lt;C, D, N&gt;.Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SuffixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Gramma.Indexing.SuffixTree&lt;C, D, N&gt;.MatchingStatistics" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SuffixTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAgAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuffixTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Indexing.KernelSuffixTree&lt;C, D, N&gt;">
+    <Position X="4" Y="5.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAoAIAEAAAAAAAAAAAAAAAAAAAAAAAIAAIABAAAA=</HashCode>
+      <FileName>KernelSuffixTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
