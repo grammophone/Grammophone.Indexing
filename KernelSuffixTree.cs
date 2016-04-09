@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Gramma.Indexing
+namespace Grammophone.Indexing
 {
 	/// <summary>
 	/// Represents a generalized suffix tree of characters
@@ -50,7 +50,7 @@ namespace Gramma.Indexing
 		/// 
 		/// </param>
 		/// <remarks>
-		/// Stock weight functions are provided in the <see cref="Gramma.Indexing.KernelWeightFunctions"/> namespace.
+		/// Stock weight functions are provided in the <see cref="Grammophone.Indexing.KernelWeightFunctions"/> namespace.
 		/// </remarks>
 		public KernelSuffixTree(
 			KernelWeightFunctions.WeightFunction weightFunction, 
@@ -217,7 +217,7 @@ namespace Gramma.Indexing
 		/// The weight function used for kernel computation.
 		/// </param>
 		/// <remarks>
-		/// Stock weight functions are provided in the <see cref="Gramma.Indexing.KernelWeightFunctions"/> namespace.
+		/// Stock weight functions are provided in the <see cref="Grammophone.Indexing.KernelWeightFunctions"/> namespace.
 		/// </remarks>
 		public KernelSuffixTree(KernelWeightFunctions.WeightFunction weightFunction)
 			: base(weightFunction)

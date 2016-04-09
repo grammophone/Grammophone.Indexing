@@ -1,4 +1,4 @@
-# Gramma.Indexing
+# Grammophone.Indexing
 This .NET library offers:
 * Generalized edit distance functionality, for any type of object in place of characters, using arbitrary distance metrics.
 * Various forms of a generalized radix tree. The trees are generalized in the sense that they use any object type as a character, and they can contain more than one items along with optional user-defined extra data per item stored. Items will be mentioned as 'words' hereon.
@@ -21,6 +21,6 @@ A subclass of the `SuffixTree`, the `KernelSuffixTree` can compute the sum of th
 
 The trees inherit from `RadixTree` various methods for exact and approximate search of their items or their prefixes. Thus, for `WordTree`, this translates to whole words and prefixes, and for `SuffixTree`, it translates to suffixes and substrings. Approximate searches are accomplished via generalized edit distance, using a user-supplied character replacement cost function.
 
-A simple example project is also [available](https://github.com/grammophone/Gramma.Indexing.Test) to demonstrate the usage of the various tree types using the `char` as character type `C`.
+A simple example project is also [available](https://github.com/grammophone/Grammophone.Indexing.Test) to demonstrate the usage of the various tree types using the `char` as character type `C`.
 
 This library has no dependencies.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Indexing.KernelWeightFunctions
+namespace Grammophone.Indexing.KernelWeightFunctions
 {
 	/// <summary>
 	/// Implies a weight of λ^|s| for string lengths |s|.

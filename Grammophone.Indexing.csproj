@@ -8,8 +8,8 @@
     <ProjectGuid>{937A024F-5DC5-4CA6-864E-BF5D9CB2E039}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Indexing</RootNamespace>
-    <AssemblyName>Gramma.Indexing</AssemblyName>
+    <RootNamespace>Grammophone.Indexing</RootNamespace>
+    <AssemblyName>Grammophone.Indexing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.Indexing.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.Indexing.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.Indexing.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.Indexing.XML</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>

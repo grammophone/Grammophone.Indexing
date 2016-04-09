@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Indexing
+namespace Grammophone.Indexing
 {
 	/// <summary>
 	/// Strategy for addition of word items into the <see cref="RadixTree{C, D, N}.Branch.NodeData"/>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Indexing
+namespace Grammophone.Indexing
 {
 	/// <summary>
 	/// Strategy for additional storage action to take place when a word is added to a radix tree branch.
