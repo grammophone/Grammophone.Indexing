@@ -61,6 +61,8 @@
     <Compile Include="WordTree.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LICENSE.md" />
+    <None Include="README.md" />
     <None Include="Trees.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
